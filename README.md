@@ -52,3 +52,6 @@ a detailler...
 Ce code peut etre utilise avec la Nano ferme disponible sur thingiverse: https://www.thingiverse.com/thing:3654094
 
 ![NanoFarm Picture](https://github.com/kolergy/CROPS/blob/master/IMG_20190528_093121088.jpg)
+![Sensor Board Layout1](https://github.com/kolergy/CROPS/blob/master/IMG_20190604_190130655_HDR.jpg)
+![Sensor Board Layout2](https://github.com/kolergy/CROPS/blob/master/IMG_20190604_190144534_HDR.jpg)
+![Display initial set-up](https://github.com/kolergy/CROPS/blob/master/IMG_20190604_190254926.jpg)
