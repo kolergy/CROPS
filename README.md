@@ -55,3 +55,4 @@ Ce code peut etre utilise avec la Nano ferme disponible sur thingiverse: https:/
 ![Sensor Board Layout1](https://github.com/kolergy/CROPS/blob/master/IMG_20190604_190130655_HDR.jpg)
 ![Sensor Board Layout2](https://github.com/kolergy/CROPS/blob/master/IMG_20190604_190144534_HDR.jpg)
 ![Display initial set-up](https://github.com/kolergy/CROPS/blob/master/IMG_20190604_190254926.jpg)
+![Display data](https://github.com/kolergy/CROPS/blob/master/IMG_20190604_195025825.png)
