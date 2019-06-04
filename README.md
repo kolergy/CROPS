@@ -10,7 +10,7 @@ Le systeme est base sur les capteurs suivants:
  - Le capteur CSMS V1.2 permet la mesure de la quantitee d'eau dans le sol.
    CSMS: 'Capacitive Soil Moisture Sensor'
  - Le captteur BMP085 permet la mesure de la pression et de la temperature
-   (de maniere semblet'il plus precise aue le DHT mais je ne l'ai pas verifie)
+   (de maniere semblet'il plus precise aue le DHT mais je ne l'ai pas encore verifie)
  - Le capteur TSL2561 Permet de mesurer la lumiere recue par les plantes
  
  le tout controle par un microcontroleur de type ESP32 avec wifi integre le "LoLin d32-Pro" et utilisant un afichage e-Paper LOLIN_IL3897.
@@ -19,7 +19,8 @@ Le systeme est base sur les capteurs suivants:
  crops.ipyndb: Contiens le notebook Jupyter permetant de visualiser et d'analyser les donnees
  
  pour pouvoir fonctioner il vous faudra soit avoir CouchDB instale sur votre ordinateur soit une DB en ligne de style CloudAnt dont la version Lite devrais etre sufisante: https://cloud.ibm.com/catalog/services/cloudant) 
- 
+
+Ce Developement c'est effectue au Fablab Artilect https://artilect.fr/ et as ete presente pour la premiere fois durant le Fablab Festival 2019 https://fablabfestival.artilect.fr/
  
 Ce code peut etre utilise avec la Nano ferme disponible sur thingiverse: https://www.thingiverse.com/thing:3654094
 
