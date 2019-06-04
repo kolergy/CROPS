@@ -22,3 +22,4 @@ Le systeme est base sur les capteurs suivants:
  
  
 Ce code peut etre utilise avec la Nano ferme disponible sur thingiverse: https://www.thingiverse.com/thing:3654094
+![alt text](https://raw.githubusercontent.com/kolergy/CROPS/blob/master/IMG_20190528_093121088.jpg)
