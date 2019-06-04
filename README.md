@@ -15,6 +15,8 @@ Le systeme est base sur les capteurs suivants:
  
  le tout controle par un microcontroleur de type ESP32 avec wifi integre le "LoLin d32-Pro" et utilisant un afichage e-Paper LOLIN_IL3897.
  
+ main.cpp    : Contiens le code a flasher sur l'EPS32 et qui vas collecter les donnees
+ crops.ipyndb: Contiens le notebook Jupyter permetant de visualiser et d'analyser les donnees
  
- 
+ pour pouvoir fonctioner il vous faudra soit avoir CouchDB instale sur votre ordinateur soit  une DB en ligne de style CloudAnt
  
