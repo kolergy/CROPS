@@ -35,15 +35,15 @@ le code main.cpp est prevu pour etre utilise avec PlatformIO sur atom
 1. il vous faudra installer Atom: https://atom.io/
 2. ensuite platformIO: dans Atom aller dans settings > Pakages > et instaler "platformio-ide"
 3. dans platformIO Home, aller dan libraries et instalez les libraries suivantes:
- * Adafruit BMP085 
- * Adafruit GFX
- * Adafruit Unified Sensor
- * Adafruit TSL2561
- * ArduinoJson (Par Benoit Blanchon)
- * DHTesp (Par Bernd Giesecke)
- * NTPClient (Par Fabrice Weinberg)
- * TimeLib (Par Paul Stoffregen)
- * La librarie LOLIN_EPD (Par Wemos) est aussi necessaire mais n'est pas disponible en installation automatique oil faudra aller la chercher ici: https://github.com/wemos/LOLIN_EPD_Library et copier le repository dans le repertoire lib de votre projet.
+  * Adafruit BMP085 
+  * Adafruit GFX
+  * Adafruit Unified Sensor
+  * Adafruit TSL2561
+  * ArduinoJson (Par Benoit Blanchon)
+  * DHTesp (Par Bernd Giesecke)
+  * NTPClient (Par Fabrice Weinberg)
+  * TimeLib (Par Paul Stoffregen)
+  * La librarie LOLIN_EPD (Par Wemos) est aussi necessaire mais n'est pas disponible en installation automatique oil faudra aller la chercher ici: https://github.com/wemos/LOLIN_EPD_Library et copier le repository dans le repertoire lib de votre projet.
 4. modifier le main.cpp afin dy introduire vos parametres WiFi et CouchDB dans les definitions 
  
 ### Instalation de la partie analyse des donnees
