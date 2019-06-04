@@ -1,6 +1,7 @@
 # CROPS
 C.R.O.P.S. : CRoissance Optimale des Plantes en Sol. Gestion des capteurs et stockage dans CouchDB
 
+## C'est Quoi?
 Colecte des donnees environementales pour unbe croissance optimale des plantes
 et stockage de ces donnees dans une base de donmnee de type couchDB
 
@@ -15,12 +16,38 @@ Le systeme est base sur les capteurs suivants:
  
  le tout controle par un microcontroleur de type ESP32 avec wifi integre le "LoLin d32-Pro" et utilisant un afichage e-Paper LOLIN_IL3897.
  
- main.cpp    : Contiens le code a flasher sur l'EPS32 et qui vas collecter les donnees
- crops.ipyndb: Contiens le notebook Jupyter permetant de visualiser et d'analyser les donnees
+ - main.cpp       : Contiens le code a flasher sur l'EPS32 et qui vas collecter les donnees
+ - cropsDB.ipyndb : Contiens le notebook Jupyter permetant de visualiser et d'analyser les donnees
  
- pour pouvoir fonctioner il vous faudra soit avoir CouchDB instale sur votre ordinateur soit une DB en ligne de style CloudAnt dont la version Lite devrais etre sufisante: https://cloud.ibm.com/catalog/services/cloudant) 
+## Pour quoi ?
+Il y as deux idees deriere ce developement:
+- Tester differents capteurs pour une agriculture plus digitale et voir ce que l'on peux tirer de l'analyse des donnees mais tout de meme a bas cout et partager avec tous les moyens de le metre en oeuvre (l'ensemble du systeme de captation des donnees coute moins de 50$)
+- L'autre question est est'il possible de produire en appartement avec eclairage artificiel tout en emetant autant voire moins de CO2 que des produits issus du suipermarche.
 
 Ce Developement c'est effectue au Fablab Artilect https://artilect.fr/ et as ete presente pour la premiere fois durant le Fablab Festival 2019 https://fablabfestival.artilect.fr/
+ 
+## Coment l'installer?
+
+### Instalation de la partie capture des donnees
+pour pouvoir fonctioner il vous faudra soit avoir un acces a CouchDB soit instale sur votre ordinateur soit une en ligne de style CloudAnt dont la version Lite (Gratuite) devrais etre sufisante: https://cloud.ibm.com/catalog/services/cloudant) 
+
+le code main.cpp est prevu pour etre utilise avec PlatformIO sur atom
+1 il vous faudra installer Atom: https://atom.io/
+2 ensuite platformIO: dans Atom aller dans settings > Pakages > et instaler "platformio-ide"
+3 dans platformIO Home, aller dan libraries et instalez les libraries suivantes:
+-- Adafruit BMP085 
+-- Adafruit GFX
+-- Adafruit Unified Sensor
+-- Adafruit TSL2561
+-- ArduinoJson (Par Benoit Blanchon)
+-- DHTesp (Par Bernd Giesecke)
+-- NTPClient (Par Fabrice Weinberg)
+-- TimeLib (Par Paul Stoffregen)
+-- La librarie LOLIN_EPD (Par Wemos) est aussi necessaire mais n'est pas disponible en installation automatique oil faudra aller la chercher ici: https://github.com/wemos/LOLIN_EPD_Library et copier le repository dans le repertoire lib de votre projet.
+4 modifier le main.cpp afin dy introduire vos parametres WiFi et CouchDB dans les definitions 
+ 
+### Instalation de la partie analyse des donnees
+a detailler...
  
 Ce code peut etre utilise avec la Nano ferme disponible sur thingiverse: https://www.thingiverse.com/thing:3654094
 
