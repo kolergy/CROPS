@@ -43,7 +43,7 @@ le code main.cpp est prevu pour etre utilise avec PlatformIO sur atom
   * DHTesp (Par Bernd Giesecke)
   * NTPClient (Par Fabrice Weinberg)
   * TimeLib (Par Paul Stoffregen)
-  * La librarie LOLIN_EPD (Par Wemos) est aussi necessaire mais n'est pas disponible en installation automatique oil faudra aller la chercher ici: https://github.com/wemos/LOLIN_EPD_Library et copier le repository dans le repertoire lib de votre projet.
+  * La librarie LOLIN_EPD (Par Wemos) est aussi necessaire mais n'est pas disponible en installation automatique il faudra aller la chercher ici: https://github.com/wemos/LOLIN_EPD_Library et copier le repository dans le repertoire lib de votre projet.
 * Modifier le main.cpp afin dy introduire vos parametres WiFi et CouchDB dans les definitions 
  
 ### Instalation de la partie analyse des donnees
