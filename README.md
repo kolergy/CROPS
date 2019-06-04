@@ -18,5 +18,7 @@ Le systeme est base sur les capteurs suivants:
  main.cpp    : Contiens le code a flasher sur l'EPS32 et qui vas collecter les donnees
  crops.ipyndb: Contiens le notebook Jupyter permetant de visualiser et d'analyser les donnees
  
- pour pouvoir fonctioner il vous faudra soit avoir CouchDB instale sur votre ordinateur soit  une DB en ligne de style CloudAnt
+ pour pouvoir fonctioner il vous faudra soit avoir CouchDB instale sur votre ordinateur soit une DB en ligne de style CloudAnt dont la version Lite devrais etre sufisante: https://cloud.ibm.com/catalog/services/cloudant) 
  
+ 
+Ce code peut etre utilise avec la Nano ferme disponible sur thingiverse: https://www.thingiverse.com/thing:3654094
